@@ -1,3 +1,5 @@
 main {
-
+    position: relative;
+    transform: rotate(-8deg);
+    width: 100%;
 }

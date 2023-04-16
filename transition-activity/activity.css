@@ -1,1 +1,40 @@
+button{
+    background-color: white;
+    color: black;
+    border: none;
+    transition: background-color,color,0.5s;
+}
 
+button:hover{
+    background-color: cornflowerblue;
+    color: white;
+}
+.caption{
+    position: relative;
+}
+h1{
+    text-align: left;
+}
+.title1{
+    position: absolute;
+    left: 152px;
+    top: 0px;
+    color: white;
+    width: 80%;
+    height: 99%;
+    transition: background-color,height,top 2s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.title1 > *{
+    transform: translateY(750px);
+}
+.title1:hover{
+    background-color: rgb(0, 0, 0,0.6);
+}
+.title1:hover > *{
+    transform: translateY(0);
+    transition: transform 2s;
+}
+p{
+    padding: 2em 50px 0 50px;
+}
